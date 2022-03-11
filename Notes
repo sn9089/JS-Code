@@ -1,0 +1,49 @@
+target="_blank" -->open in new tab;
+---------------------------------------------------------------------------------------------
+div-->nex line
+span -->same line
+
+For Each loop--
+
+Array.from(variable).forEach(function(ele))
+{
+
+}
+
+
+forEach(function(element,index))
+
+------------------------------------------------------------------------------------------------
+Session Storage--
+It clear after browser close or restart
+
+sessionStorage.setItem('Name','Swapnil')
+sessionStorage.getItem('Name')
+sessionStorage.clear()
+sessionStorage.removeItem('Name')
+
+Local storage --
+It not clear after browser close or restart
+
+localStorage.setItem('Name','Swapnil')
+localStorage.getItem('Name')
+localStorage.clear()
+localStorage.removeItem('Name')
+
+
+
+-------------------------------------------------------------------------------------------------
+JSON.stringify() takes a JavaScript object and then transforms it into a JSON string.
+JSON.parse() takes a JSON string and then transforms it into a JavaScript object.
+
+-------------------------------------------------------------------------------------------------
+Inheritance-
+childfunction.prototype=object.create(parentfunction.prototype);
+
+
+
+------------------------------------------------------------------------------------------------
+
+return new promise(function(resolve,reject)
+{}
+)
