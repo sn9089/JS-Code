@@ -21,7 +21,6 @@ class book {
         localStorage.setItem("name", JSON.stringify(bname));
     }
     setAuthLocalStorage(lAuth) {
-        //  let lAuth = localStorage.getItem("auth");
         this.lAuth = lAuth;
         let ath;
         if (lAuth == null) {
@@ -34,7 +33,6 @@ class book {
     }
 
     setTypeLocalStorage(lType) {
-        //  let lAuth = localStorage.getItem("auth");
         this.lType = lType;
         let typ;
         if (lType == null) {
@@ -157,7 +155,6 @@ function bookData(e) {
         display1.clear();
         display1.message("successful");
     } else {
-        // display.message("data is not valid");
         console.log("data not added")
         display1.message("Unsuccessful");
 
