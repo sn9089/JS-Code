@@ -159,6 +159,7 @@ function bookData(e) {
         display1.message("Unsuccessful");
 
     }
+
 }
 let del = document.getElementById("del");
 del.addEventListene('click', dele(index));
